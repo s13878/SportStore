@@ -5,6 +5,125 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Include="lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="lib\bootstrap\js\tests\index.html" />
+    <Content Include="lib\bootstrap\js\tests\visual\alert.html" />
+    <Content Include="lib\bootstrap\js\tests\visual\button.html" />
+    <Content Include="lib\bootstrap\js\tests\visual\carousel.html" />
+    <Content Include="lib\bootstrap\js\tests\visual\collapse.html" />
+    <Content Include="lib\bootstrap\js\tests\visual\dropdown.html" />
+    <Content Include="lib\bootstrap\js\tests\visual\modal.html" />
+    <Content Include="lib\bootstrap\js\tests\visual\popover.html" />
+    <Content Include="lib\bootstrap\js\tests\visual\scrollspy.html" />
+    <Content Include="lib\bootstrap\js\tests\visual\tab.html" />
+    <Content Include="lib\bootstrap\js\tests\visual\tooltip.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\brand\bootstrap-social-logo.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\brand\bootstrap-social.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\css\docs.min.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\img\bootstrap-stack.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\img\bootstrap-themes.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\img\favicons\android-chrome-192x192.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\img\favicons\android-chrome-512x512.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\img\favicons\apple-touch-icon.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\img\favicons\browserconfig.xml" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\img\favicons\favicon-16x16.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\img\favicons\favicon-32x32.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\img\favicons\mstile-144x144.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\img\favicons\mstile-150x150.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\img\favicons\mstile-310x150.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\img\favicons\mstile-310x310.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\assets\img\favicons\mstile-70x70.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\album\album.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\album\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\blog\blog.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\blog\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\carousel\carousel.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\carousel\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\checkout\form-validation.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\checkout\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\cover\cover.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\cover\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\dashboard\dashboard.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\dashboard\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\floating-labels\floating-labels.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\floating-labels\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\grid\grid.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\grid\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\jumbotron\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\jumbotron\jumbotron.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\navbar-bottom\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\navbar-fixed\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\navbar-fixed\navbar-top-fixed.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\navbar-static\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\navbar-static\navbar-top.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\navbars\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\navbars\navbar.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\offcanvas\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\offcanvas\offcanvas.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\pricing\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\pricing\pricing.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\product\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\product\product.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\album.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\blog.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\carousel.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\checkout.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\cover.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\dashboard.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\floating-labels.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\grid.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\jumbotron.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\navbar-bottom.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\navbar-fixed.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\navbar-static.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\navbars.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\offcanvas.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\pricing.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\product.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\sign-in.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\starter-template.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\sticky-footer-navbar.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\screenshots\sticky-footer.png" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\sign-in\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\sign-in\signin.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\starter-template\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\starter-template\starter-template.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\sticky-footer-navbar\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\sticky-footer-navbar\sticky-footer-navbar.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\sticky-footer\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\sticky-footer\sticky-footer.css" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\tooltip-viewport\index.html" />
+    <Content Include="lib\bootstrap\site\docs\4.1\examples\tooltip-viewport\tooltip-viewport.css" />
+    <Content Include="lib\bootstrap\site\favicon.ico" />
+    <Content Include="lib\bootstrap\site\index.html" />
+    <Content Include="lib\bootstrap\site\robots.txt" />
+    <Content Include="lib\bootstrap\site\_includes\ads.html" />
+    <Content Include="lib\bootstrap\site\_includes\bugify.html" />
+    <Content Include="lib\bootstrap\site\_includes\callout.html" />
+    <Content Include="lib\bootstrap\site\_includes\docs-navbar.html" />
+    <Content Include="lib\bootstrap\site\_includes\docs-sidebar.html" />
+    <Content Include="lib\bootstrap\site\_includes\example.html" />
+    <Content Include="lib\bootstrap\site\_includes\favicons.html" />
+    <Content Include="lib\bootstrap\site\_includes\footer.html" />
+    <Content Include="lib\bootstrap\site\_includes\header.html" />
+    <Content Include="lib\bootstrap\site\_includes\scripts.html" />
+    <Content Include="lib\bootstrap\site\_includes\skippy.html" />
+    <Content Include="lib\bootstrap\site\_includes\social.html" />
+    <Content Include="lib\bootstrap\site\_layouts\default.html" />
+    <Content Include="lib\bootstrap\site\_layouts\docs.html" />
+    <Content Include="lib\bootstrap\site\_layouts\examples.html" />
+    <Content Include="lib\bootstrap\site\_layouts\home.html" />
+    <Content Include="lib\bootstrap\site\_layouts\redirect.html" />
+    <Content Include="lib\bootstrap\site\_layouts\simple.html" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
@@ -13,6 +132,15 @@
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="lib\bootstrap\.github\CONTRIBUTING.md" />
+    <None Include="lib\bootstrap\.github\ISSUE_TEMPLATE\bug.md" />
+    <None Include="lib\bootstrap\.github\ISSUE_TEMPLATE\bug_report.md" />
+    <None Include="lib\bootstrap\.github\ISSUE_TEMPLATE\feature.md" />
+    <None Include="lib\bootstrap\.github\ISSUE_TEMPLATE\feature_request.md" />
+    <None Include="lib\bootstrap\.github\SUPPORT.md" />
   </ItemGroup>
 
 </Project>
