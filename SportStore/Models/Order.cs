@@ -13,6 +13,8 @@ namespace SportStore.Models
         public int OrderID { get; set; }
         [BindNever]
         public ICollection<CartLine> Lines { get; set; }
+        [BindNever]
+        public bool Shipped { get; set; }
 
         [Required(ErrorMessage = "Prosze podać imie i nazwisko.")]
         public string Name { get; set; }
