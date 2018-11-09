@@ -45,14 +45,23 @@ namespace SportStore
         
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-
-            app.UseDeveloperExceptionPage();
-            app.UseStatusCodePages();
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseStatusCodePages();
+            }
+            else
+            {
+                app.UseExceptionHandler("/Error");
+            }
             app.UseStaticFiles();
             app.UseSession();
             app.UseAuthentication();
             app.UseMvc(routes =>
             {
+                routes.MapRoute(
+                    name: "Error", template: "Error",
+                    defaults: new { controller = "Error", action = "Error" });
                 routes.MapRoute(
                     name: null,
                     template: "{category}/Strona{productPage:int}",
@@ -77,8 +86,8 @@ namespace SportStore
                     name: "default",
                     template: "{controller=Product}/{action=List}/{id?}");
             });
-            SeedData.EnsurePopulated(app);
-            IdentitySeedData.EnsurePopulated(app);
+            //SeedData.EnsurePopulated(app);
+            //IdentitySeedData.EnsurePopulated(app);
         }
     }
 }

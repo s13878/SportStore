@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using SportStore.Models;
 using SportStore.Models.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,8 @@ namespace SportStore.Controllers
         {
             userManager = userMgr;
             signInManager = signInMgr;
+
+            IdentitySeedData.EnsurePopulated(userMgr).Wait();
         }
 
         [AllowAnonymous]
