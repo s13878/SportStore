@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SportStore.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace SportStore
 {
@@ -24,6 +25,15 @@ namespace SportStore
             services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(
                 Configuration["Data:SportStoreProducts:ConnectionString"]));
+
+            services.AddDbContext<AppIdentityDbContext>(options =>
+            options.UseSqlServer(
+                Configuration["Data:SportStoreIdentity:ConnectionString"]));
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppIdentityDbContext>()
+                .AddDefaultTokenProviders();
+
             services.AddTransient<IProductRepository, EFProductRepository>();
             services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
@@ -40,6 +50,7 @@ namespace SportStore
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseSession();
+            app.UseAuthentication();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -67,7 +78,7 @@ namespace SportStore
                     template: "{controller=Product}/{action=List}/{id?}");
             });
             SeedData.EnsurePopulated(app);
-
+            IdentitySeedData.EnsurePopulated(app);
         }
     }
 }
